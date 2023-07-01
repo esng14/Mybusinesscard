@@ -1,0 +1,73 @@
+.html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #c7cfd1;
+    font: 16px/1 'arial, sans-serif';
+    border-width: 1px 2em 1.5cm;
+    
+}
+
+.image-block,
+.text-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text-block {
+    color: #2d2d2d;
+    line-height: 20px  
+    text-align: justify;
+    padding-right: 500px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+}
+
+#site-wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background-image: url(images/fabric.png);
+    padding-right: 50px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-top: 1em auto;
+    margin: 3em auto;
+    -webkit-box-shadow: 3px 4px 20px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 4px 20px -1px rgba(0,0,0,0.75);
+    box-shadow: 3px 4px 20px -1px rgba(0,0,0,0.75);
+    border-radius: 6px 6px 6px 6px;
+
+
+
+}
+.image-block {
+    padding-top: 70px;
+    padding-left: 100px;
+    
+    
+}
+.header {
+    font-size: .8rem;
+}
+a {
+    color: #2273cb;
+    text-decoration: none;
+}
+a:hover {
+    color: #5ba6f5;
+}
+.no-style {
+    list-style: none;
+    padding-left: 0;
+}
+.no-style li {
+    display: inline-block;
+}
